@@ -28,3 +28,13 @@ Y:/Users/Robin/Mermory-Game/Memory-Game/WindowsFormsApp1/obj/Debug/WindowsFormsA
 /Users/Robin/Mermory-Game/Memory-Game/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.csproj.CoreCompileInputs.cache
 /Users/Robin/Mermory-Game/Memory-Game/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.exe
 /Users/Robin/Mermory-Game/Memory-Game/WindowsFormsApp1/obj/Debug/WindowsFormsApp1.pdb
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+Z:\Users\Robin\Memory-Game\Memory-Game\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb

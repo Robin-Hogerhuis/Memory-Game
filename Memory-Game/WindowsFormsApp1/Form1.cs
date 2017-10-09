@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        private SoundPlayer _soundPlayer;
         // firstClicked points to the first Label control 
         // that the player clicks, but it will be null 
         // if the player hasn't clicked a label yet
@@ -59,6 +61,8 @@ namespace WindowsFormsApp1
             InitializeComponent();
 
             AssignIconsToSquares();
+            
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -107,21 +111,16 @@ namespace WindowsFormsApp1
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
 
-                // If the player gets this far, the timer isn't
-                // running and firstClicked isn't null,
-                // so this must be the second icon the player clicked
-                // Set its color to black
-                secondClicked = clickedLabel;
-                secondClicked.ForeColor = Color.Black;
-
                 // Check to see if the player won
                 CheckForWinner();
-
+              
                 // If the player clicked two matching icons, keep them 
                 // black and reset firstClicked and secondClicked 
                 // so the player can click another icon
                 if (firstClicked.Text == secondClicked.Text)
                 {
+                    _soundPlayer = new SoundPlayer("Gotcha Bitch - Gaming Sound Effects (HD).wav");
+                    _soundPlayer.Play();
                     firstClicked = null;
                     secondClicked = null;
                     return;
@@ -170,7 +169,8 @@ namespace WindowsFormsApp1
                         return;
                 }
             }
-
+            _soundPlayer = new SoundPlayer("Heavenly Music - Gaming Sound Effect (HD).wav");
+            _soundPlayer.Play();
             // If the loop didn’t return, it didn't find
             // any unmatched icons
             // That means the user won. Show a message and close the form
