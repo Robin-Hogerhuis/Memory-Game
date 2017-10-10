@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        
         private SoundPlayer _soundPlayer;
         // firstClicked points to the first Label control 
         // that the player clicks, but it will be null 
@@ -43,8 +44,13 @@ namespace WindowsFormsApp1
             // and the icon list has 16 icons,
             // so an icon is pulled at random from the list
             // and added to each label
+
+            
+            
+
             foreach (Control control in tableLayoutPanel1.Controls)
             {
+               
                 Label iconLabel = control as Label;
                 if (iconLabel != null)
                 {
@@ -53,16 +59,14 @@ namespace WindowsFormsApp1
                     iconLabel.ForeColor = iconLabel.BackColor;
                     icons.RemoveAt(randomNumber);
                 }
+                
             }
         }
 
         public Form1()
         {
             InitializeComponent();
-
             AssignIconsToSquares();
-            
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -75,8 +79,10 @@ namespace WindowsFormsApp1
         /// </summary>
         /// <param name="sender">The label that was clicked</param>
         /// <param name="e"></param>
+        
         private void label_Click(object sender, EventArgs e)
         {
+          
             // The timer is only on after two non-matching 
             // icons have been shown to the player, 
             // so ignore any clicks if the timer is running
@@ -177,5 +183,7 @@ namespace WindowsFormsApp1
             MessageBox.Show("You matched all the icons!", "Congratulations");
             Close();
         }
+
+       
     }
 }
